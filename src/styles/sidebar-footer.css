@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 .sidebar{
     position: fixed;
@@ -31,7 +32,6 @@ body{
     font-weight: 600px;
     font-size: 14px;
     text-decoration: none;
-    font-family: sans-serif;
 }
 .library{
     background-color: #121212;
@@ -56,7 +56,6 @@ body{
     border: 0;
     font-size: 14px;
     font-weight: 600;
-    font-family: sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -83,7 +82,6 @@ body{
     flex-direction: column;
 }
 .section-playlist .section-playlist_content .text{
-    font-family: sans-serif;
     color: #B3B3B3;
     padding-bottom: 10px;
 }
@@ -101,7 +99,6 @@ body{
     color: black;
     margin-top: 12px;
     border-radius: 20px;
-    font-family: sans-serif;
     font-weight: 700;
     font-size: 12px;
     padding: 10px;
@@ -117,7 +114,6 @@ body{
     color: #B3B3B3;
     font-size: 10px;
     font-weight: 500;
-    font-family: sans-serif;
 }
 .library .cookies a:hover{
     text-decoration: underline;
@@ -146,7 +142,6 @@ body{
 }
 .disclainer-premium .text p{
     flex-shrink: 0;
-    font-family: sans-serif;
     color: white;
 }
 .disclainer-premium .disclaimer-premium__title{
@@ -167,7 +162,6 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 16px;
-    font-family: sans-serif;
     padding: 14px 30px;
     cursor: pointer;
     flex-shrink: 0;
